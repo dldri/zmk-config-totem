@@ -113,7 +113,7 @@
             bindings = <
         &none      &kp HOME       &kp UP           &kp END          &kp LBRC    &kp RBRC  &kp F7        &kp F8         &kp F9       &kp F12
         &kp LMETA  &mt LALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp LBKT    &kp RBKT  &mt RCTRL F4  &mt RSHIFT F5  &mt RALT F6  &mt RMETA F11
-&trans  &none      &kp PG_DN      &kp CAPS         &kp PG_UP        &kp LPAR    &kp RPAR  &kp F1        &kp F2         &kp F3       &kp F10        &none
+&trans  &none      &kp PG_DN      &none            &kp PG_UP        &kp LPAR    &kp RPAR  &kp F1        &kp F2         &kp F3       &kp F10        &none
                                   &trans           &trans           &trans      &trans    &trans        &trans
             >;
         };
