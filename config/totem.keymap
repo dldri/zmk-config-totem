@@ -136,9 +136,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT      &kp HASH             &kp DLLR    &kp PRCNT       &kp CARET     &kp AMPS  &kp ASTRK  &kp SLASH  &kp BACKSLASH
-        &none     &none       &kp C_AL_CALCULATOR  &none       &none           &kp C_MUTE    &none     &none      &none      &none
-&trans  &none     &kp C_PREV  &kp C_PP             &kp C_NEXT  &kp C_VOL_DN    &kp C_VOL_UP  &none     &none      &none      &none          &none
+        &kp EXCL  &kp AT      &kp HASH             &kp DLLR    &kp PRCNT       &kp CARET     &kp AMPS  &kp ASTRK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+        &none     &none       &kp C_AL_CALCULATOR  &none       &none           &kp C_MUTE    &none     &none      &none             &none
+&trans  &none     &kp C_PREV  &kp C_PP             &kp C_NEXT  &kp C_VOL_DN    &kp C_VOL_UP  &none     &none      &none             &none              &none
                               &trans               &trans      &trans          &trans        &trans    &none
             >;
         };
