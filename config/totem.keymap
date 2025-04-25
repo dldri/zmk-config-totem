@@ -22,45 +22,12 @@
 #define TVP2 5
 
 &mt {
-    quick-tap-ms = <100>;
-    global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <150>;
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 4>;
-        };
-    };
-
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -162,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none      &none     &none       &none      &none     &kp FSLH  &kp N7  &kp N8   &kp N9  &kp STAR
-        &kp LMETA  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &none     &kp N4  &kp N5   &kp N6  &kp MINUS
-&trans  &none      &none     &none       &none      &none     &none     &kp N1  &kp N2   &kp N3  &kp PLUS   &kp RET
-                             &trans      &trans     &trans    &trans    &kp N0  &kp DOT
+        &none      &none     &none       &none      &none     &kp KP_DIVIDE  &kp N7  &kp N8      &kp N9  &kp KP_MULTIPLY
+        &kp LMETA  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &none          &kp N4  &kp N5      &kp N6  &kp KP_MINUS
+&trans  &none      &none     &none       &none      &none     &none          &kp N1  &kp N2      &kp N3  &kp KP_PLUS      &kp RET
+                             &trans      &trans     &trans    &trans         &kp N0  &kp KP_DOT
             >;
         };
 
