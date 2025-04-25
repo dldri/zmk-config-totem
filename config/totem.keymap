@@ -77,10 +77,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none      &kp HOME       &kp UP           &kp END          &kp MINUS    &kp EQUAL  &kp KP_N7        &kp KP_N8         &kp KP_N9       &kp KP_ASTERISK
-        &kp LMETA  &mt LALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp UNDER    &kp PLUS   &mt RCTRL KP_N4  &mt RSHIFT KP_N5  &mt RALT KP_N6  &mt RMETA KP_MINUS
-&trans  &none      &kp PG_DN      &none            &kp PG_UP        &kp LPAR     &kp RPAR   &kp KP_N1        &kp KP_N2         &kp KP_N3       &kp KP_PLUS         &kp RET
-                                  &trans           &trans           &trans       &kp KP_N0  &kp KP_DOT       &kp KP_SLASH
+        &none      &kp HOME       &kp UP           &kp END          &kp MINUS    &kp EQUAL  &kp N7        &kp N8         &kp N9       &kp KP_ASTERISK
+        &kp LMETA  &mt LALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp UNDER    &kp PLUS   &mt RCTRL N4  &mt RSHIFT N5  &mt RALT N6  &mt RMETA KP_MINUS
+&trans  &none      &kp PG_DN      &none            &kp PG_UP        &kp LPAR     &kp RPAR   &kp N1        &kp N2         &kp N3       &kp KP_PLUS         &kp RET
+                                  &trans           &trans           &trans       &kp N0     &kp KP_DOT    &kp KP_SLASH
             >;
         };
 
