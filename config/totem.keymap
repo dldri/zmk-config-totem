@@ -60,10 +60,10 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        nav_f_layer {
+        nav_num_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NAVF";
+            label = "NAVNUM";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -77,10 +77,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none      &kp HOME       &kp UP           &kp END          &kp MINUS    &kp EQUAL  &kp F7        &kp F8         &kp F9       &kp F12
-        &kp LMETA  &mt LALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp UNDER    &kp PLUS   &mt RCTRL F4  &mt RSHIFT F5  &mt RALT F6  &mt RMETA F11
-&trans  &none      &kp PG_DN      &none            &kp PG_UP        &kp LPAR     &kp RPAR   &kp F1        &kp F2         &kp F3       &kp F10        &none
-                                  &trans           &trans           &trans       &trans     &trans        &trans
+        &none      &kp HOME       &kp UP           &kp END          &kp MINUS    &kp EQUAL  &kp KP_N7        &kp KP_N8         &kp KP_N9       &kp KP_ASTERISK
+        &kp LMETA  &mt LALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp UNDER    &kp PLUS   &mt RCTRL KP_N4  &mt RSHIFT KP_N5  &mt RALT KP_N6  &mt RMETA KP_MINUS
+&trans  &none      &kp PG_DN      &none            &kp PG_UP        &kp LPAR     &kp RPAR   &kp KP_N1        &kp KP_N2         &kp KP_N3       &kp KP_PLUS         &kp RET
+                                  &trans           &trans           &trans       &kp KP_N0  &kp KP_DOT       &kp KP_SLASH
             >;
         };
 
@@ -112,10 +112,10 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        num_layer {
+        func_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "NUM";
+            label = "FUNC";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none      &none     &none       &none      &none     &kp KP_DIVIDE  &kp N7  &kp N8      &kp N9  &kp KP_MULTIPLY
-        &kp LMETA  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &none          &kp N4  &kp N5      &kp N6  &kp KP_MINUS
-&trans  &none      &none     &none       &none      &none     &none          &kp N1  &kp N2      &kp N3  &kp KP_PLUS      &kp RET
-                             &trans      &trans     &trans    &trans         &kp N0  &kp KP_DOT
+        &none      &none     &none       &none      &none     &none   &kp F7  &kp F8  &kp F9  &kp F12
+        &kp LMETA  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &none   &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &none      &none     &none       &none      &none     &none   &kp F1  &kp F2  &kp F3  &kp F10  &none
+                             &trans      &trans     &trans    &trans  &trans  &trans
             >;
         };
 
