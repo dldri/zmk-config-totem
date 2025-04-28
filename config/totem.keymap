@@ -105,7 +105,7 @@
             bindings = <
            &kp EXCL  &kp AT      &kp HASH   &kp DLLR    &kp PRCNT        &kp CARET     &kp AMPS   &kp ASTRK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
            &kp LGUI  &kp LALT    &kp LSHFT  &kp LCTRL   &kp C_AL_CALC    &kp C_MUTE    &kp RCTRL  &kp RSHIFT  &kp RALT          &kp RMETA
-&kp GRAVE  &none     &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp C_VOL_DN     &kp C_VOL_UP  &none      &none       &none             &none              &none
+&kp GRAVE  &none     &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp C_VOL_DN     &kp C_VOL_UP  &none      &none       &none             &none              &kp BACKSLASH
                                  &trans     &trans      &trans           &trans        &trans     &none
             >;
         };
